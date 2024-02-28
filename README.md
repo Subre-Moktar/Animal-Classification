@@ -53,8 +53,7 @@ Now you want to get your Roboflow API
 
   Sign in or Create an Account
 
-  Select Public Plan (Free) and name your workspace
-  You do not need to upload any data set or invite any friends
+  Select Public Plan (Free) and name your workspace (You do not need to upload any data set or invite any friends)
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/1c71f361-a177-4118-94c9-fd629e179930)
 
   Click on the top right where the arrow is
