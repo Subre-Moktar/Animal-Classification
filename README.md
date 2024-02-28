@@ -32,9 +32,9 @@ upload the model
 # Fine Tuning YOLO v7 on Custom Data Set
 
 **Link to see the code: https://colab.research.google.com/drive/18sYcWbWg431Vc78qZuyc8R9dGjCoOlx-?usp=sharing**
-<br>
+</br>
 **The first code cell is to clone YOLOv7 and download all the necessary requirements into google colab**
-<br>
+</br>
 **Next you want to change your runtime like so:**
 
   &emsp;&emsp;-Click on the arrow next to Connect GPU
