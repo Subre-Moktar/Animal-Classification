@@ -37,10 +37,10 @@ upload the model
 </br></br>
 **(3) Next you want to change your runtime like so:**
 </br></br>
-  &emsp;&emsp;-Click on the arrow next to Connect GPU
+  &emsp;&emsp;-Click on the arrow next to Connect GPU</br>
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/30661786-49b0-40d1-bf6e-e7ecd3621e79)
   
-  &emsp;&emsp;-Select Change Runtime Type > T4 GPU
+  &emsp;&emsp;-Select Change Runtime Type > T4 GPU</br>
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/aff6fd04-f3b4-43d3-8c96-187945d63c8a)
 
   &emsp;&emsp;-Save Selection
@@ -53,14 +53,14 @@ upload the model
 
   &emsp;&emsp;-Sign in or Create an Account
 
-  &emsp;&emsp;-Select Public Plan (Free) and name your workspace (You do not need to upload any data set or invite any friends)
+  &emsp;&emsp;-Select Public Plan (Free) and name your workspace (You do not need to upload any data set or invite any friends)</br>
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/1c71f361-a177-4118-94c9-fd629e179930)
 
-  &emsp;&emsp;-Click on the top right where the arrow is
+  &emsp;&emsp;-Click on the top right where the arrow is</br>
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/820ec41e-f95a-4854-9838-cb145bb8cc85)
 
-  &emsp;&emsp;-Select Setting > Your Created Workspace > Roboflow API 
-  &emsp;&emsp;-Copy Your private API but do not share this with anyone
+  &emsp;&emsp;-Select Setting > Your Created Workspace > Roboflow API </br>
+  &emsp;&emsp;-Copy Your private API but do not share this with anyone</br>
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/c13dcadc-c909-40b1-8e01-91262d05966b)
 </br></br>
 **(6) Run the Third Cell and paste your API**
