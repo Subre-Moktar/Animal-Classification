@@ -38,10 +38,14 @@ upload the model
 **(3) Next you want to change your runtime like so:**
 </br></br>
   &emsp;&emsp;-Click on the arrow next to Connect GPU</br>
-  ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/30661786-49b0-40d1-bf6e-e7ecd3621e79)
+  <div style="text-align: center;">
+    ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/30661786-49b0-40d1-bf6e-e7ecd3621e79)
+  </div>
   
   &emsp;&emsp;-Select Change Runtime Type > T4 GPU</br>
-  ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/aff6fd04-f3b4-43d3-8c96-187945d63c8a)
+  <div style="text-align: center;">
+    ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/aff6fd04-f3b4-43d3-8c96-187945d63c8a)
+  </div>
 
   &emsp;&emsp;-Save Selection
 </br></br>
@@ -76,5 +80,6 @@ upload the model
 **(10) The Seventh Cell is to run the new model on our test data**
 </br></br>
 **(11) The Eighth Cell is to view the images with object detection bounding boxes**
+
 
 
