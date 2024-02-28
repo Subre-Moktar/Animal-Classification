@@ -36,31 +36,31 @@ The first code cell is to clone YOLOv7 and download all the necessary requiremen
 
 Next you want to change your runtime like so:
 
-  Click on the arrow next to Connect GPU
+  -Click on the arrow next to Connect GPU
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/30661786-49b0-40d1-bf6e-e7ecd3621e79)
 
-  Select Change Runtime Type > T4 GPU
+  -Select Change Runtime Type > T4 GPU
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/aff6fd04-f3b4-43d3-8c96-187945d63c8a)
 
-  Save Selection
+  -Save Selection
 
 The Second Cell will make sure that the right runtime in google colab is being used
 
 Now you want to get your Roboflow API
 
-  Go to Roboflow Link:
-  https://roboflow.com
+  -Go to Roboflow Link:
+  -https://roboflow.com
 
-  Sign in or Create an Account
+  -Sign in or Create an Account
 
-  Select Public Plan (Free) and name your workspace (You do not need to upload any data set or invite any friends)
+  -Select Public Plan (Free) and name your workspace (You do not need to upload any data set or invite any friends)
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/1c71f361-a177-4118-94c9-fd629e179930)
 
-  Click on the top right where the arrow is
+  -Click on the top right where the arrow is
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/820ec41e-f95a-4854-9838-cb145bb8cc85)
 
-  Select Setting > Your Created Workspace > Roboflow API 
-  Copy Your private API but do not share this with anyone
+  -Select Setting > Your Created Workspace > Roboflow API 
+  -Copy Your private API but do not share this with anyone
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/c13dcadc-c909-40b1-8e01-91262d05966b)
 
 Run the Third Cell and paste your API
@@ -70,7 +70,7 @@ The Fourth Cell will install the proper dataset for fine tuning
 The Fifth Cell will allow you to use transfer learning with the yolov7 model
 
 The Sixth Cell is to train the model on your training data
-  We will go over the different parameters and how they affect training
+  -We will go over the different parameters and how they affect training
 
 The Seventh Cell is to run the new model on our test data
 
