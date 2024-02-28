@@ -31,12 +31,12 @@ upload the model
 
 # Fine Tuning YOLO v7 on Custom Data Set
 
-**Link to see the code: https://colab.research.google.com/drive/18sYcWbWg431Vc78qZuyc8R9dGjCoOlx-?usp=sharing**
+**(1) Link to see the code: https://colab.research.google.com/drive/18sYcWbWg431Vc78qZuyc8R9dGjCoOlx-?usp=sharing**
 </br></br>
-**The first code cell is to clone YOLOv7 and download all the necessary requirements into google colab**
+**(2) The first code cell is to clone YOLOv7 and download all the necessary requirements into google colab**
 </br></br>
-**Next you want to change your runtime like so:**
-
+**(3) Next you want to change your runtime like so:**
+</br></br>
   &emsp;&emsp;-Click on the arrow next to Connect GPU
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/30661786-49b0-40d1-bf6e-e7ecd3621e79)
   
@@ -44,11 +44,11 @@ upload the model
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/aff6fd04-f3b4-43d3-8c96-187945d63c8a)
 
   &emsp;&emsp;-Save Selection
-<br/>
-**The Second Cell will make sure that the right runtime in google colab is being used**
-<br/>
-**Now you want to get your Roboflow API**
-
+</br></br>
+**(4) The Second Cell will make sure that the right runtime in google colab is being used**
+</br></br>
+**(5) Now you want to get your Roboflow API**
+</br></br>
   &emsp;&emsp;-Go to Roboflow Link: https://roboflow.com
 
   &emsp;&emsp;-Sign in or Create an Account
@@ -62,18 +62,19 @@ upload the model
   &emsp;&emsp;-Select Setting > Your Created Workspace > Roboflow API 
   &emsp;&emsp;-Copy Your private API but do not share this with anyone
   ![image](https://github.com/Subre-Moktar/Animal-Classification/assets/106625128/c13dcadc-c909-40b1-8e01-91262d05966b)
-<br/>
-**Run the Third Cell and paste your API**
-<br/>
-**The Fourth Cell will install the proper dataset for fine tuning**
-<br/>
-**The Fifth Cell will allow you to use transfer learning with the yolov7 model**
-<br/>
-**The Sixth Cell is to train the model on your training data**
+</br></br>
+**(6) Run the Third Cell and paste your API**
+</br></br>
+**(7) The Fourth Cell will install the proper dataset for fine tuning**
+</br></br>
+**(8) The Fifth Cell will allow you to use transfer learning with the yolov7 model**
+</br></br>
+**(9) The Sixth Cell is to train the model on your training data**
+</br></br>
   &emsp;&emsp;-We will go over the different parameters and how they affect training
-
-The Seventh Cell is to run the new model on our test data
-
-The Eighth Cell is to view the images with object detection bounding boxes
+</br></br>
+**(10) The Seventh Cell is to run the new model on our test data**
+</br></br>
+**(11) The Eighth Cell is to view the images with object detection bounding boxes**
 
 
