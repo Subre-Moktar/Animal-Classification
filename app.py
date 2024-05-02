@@ -42,7 +42,10 @@ def downloadAndDetect(link):
         print('Error2')
 
     # sanitized_title = ''.join(c if c.isalnum() else '_' for c in yt.title)
-    command = f"python detect.py --weights best_200_epochs.pt --conf 0.2 --source {SAVE_PATH}\{VID_NAME} --device 0 --name animal_detect --project temp/detect"
+    if torch.cuda.is_available():
+        command = f"python detect.py --weights best_200_epochs.pt --conf 0.2 --source {SAVE_PATH}\{VID_NAME} --device 0 --name animal_detect --project temp/detect"
+    else:
+        command = f"python detect.py --weights best_200_epochs.pt --conf 0.2 --source {SAVE_PATH}\{VID_NAME} --name animal_detect --project temp/detect"
     print(command)
     try:
         subprocess.run(command, shell=True, check=True)
